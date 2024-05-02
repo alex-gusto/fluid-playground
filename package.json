@@ -1,0 +1,62 @@
+{
+	"name": "@fluid-example/hello-world",
+	"version": "0.1.0",
+	"description": "Minimal Fluid Container & Data Object sample to implement a collaborative dice roller as a standalone app.",
+	"repository": "microsoft/FluidHelloWorld",
+	"license": "MIT",
+	"author": "Microsoft",
+	"engines": {
+		"node": ">=20.0.0"
+	},
+	"scripts": {
+		"build": "webpack --env prod",
+		"build:dev": "webpack",
+		"ci:test": "start-server-and-test start:server 7071 ci:test:jest",
+		"ci:test:jest": "jest --ci --reporters=default --reporters=jest-junit",
+		"start": "start-server-and-test start:server 7071 start:client",
+		"start:client": "webpack serve",
+		"start:server": "tinylicious",
+		"format": "npm run prettier:fix",
+		"lint": "npm run prettier",
+		"lint:fix": "npm run prettier:fix",
+		"prettier": "prettier --check . --ignore-path ./.prettierignore",
+		"prettier:fix": "prettier --write . --ignore-path ./.prettierignore",
+		"test": "start-server-and-test start:server 7071 test:jest",
+		"test:jest": "jest"
+	},
+	"dependencies": {
+		"@fluidframework/devtools": "^2.0.0-dev-rc.1.0.0.224419",
+		"@fluidframework/tinylicious-client": "2.0.0-rc.3.0.0",
+		"antd": "^5.16.5",
+		"fluid-framework": "2.0.0-rc.3.0.0",
+		"lodash.debounce": "^4.0.8",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-router-dom": "^6.23.0",
+		"ts-loader": "^9.5.1"
+	},
+	"devDependencies": {
+		"@fluidframework/build-common": "^2.0.3",
+		"@pmmmwh/react-refresh-webpack-plugin": "^0.5.13",
+		"@tsconfig/create-react-app": "^2.0.4",
+		"@types/lodash.debounce": "^4.0.9",
+		"@types/react": "^18.3.1",
+		"@types/react-dom": "^18.3.0",
+		"html-webpack-plugin": "^5.5.3",
+		"jest": "^29.0.0",
+		"jest-junit": "^16.0.0",
+		"jest-puppeteer": "^9.0.0",
+		"prettier": "^3.0.3",
+		"puppeteer": "^21.0.0",
+		"react-refresh-typescript": "^2.0.9",
+		"start-server-and-test": "^2.0.0",
+		"tinylicious": "^4.0.0",
+		"webpack": "^5.88.2",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^4.15.1"
+	},
+	"jest-junit": {
+		"outputDirectory": "nyc",
+		"outputName": "jest-junit-report.xml"
+	}
+}

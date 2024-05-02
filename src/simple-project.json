@@ -1,0 +1,71 @@
+{
+    "_id": "a68ec831-3b2b-4ed6-a1cb-c988c3fe3a1c",
+    "area": "a68ec831-3b2b-4ed6-a1cb-c988c3fe3a1c",
+    "data": {
+        "text": "Munin Batch"
+    },
+    "children": [
+        {
+            "_id": "ddf9f79e-f6e3-4684-ae7f-71379b15ca5c",
+            "area": "a68ec831-3b2b-4ed6-a1cb-c988c3fe3a1c",
+            "data": {
+                "text": "Predefined variables"
+            },
+            "children": [
+                {
+                    "_id": "c5cecaec-3ba5-4bcc-9170-b13b4d95852d",
+                    "area": "a68ec831-3b2b-4ed6-a1cb-c988c3fe3a1c",
+                    "data": {
+                        "text": "Tubular definitions"
+                    }
+                },
+                {
+                    "_id": "45c3dcdd-af95-447f-9ebf-c58eadbf2040",
+                    "area": "a68ec831-3b2b-4ed6-a1cb-c988c3fe3a1c",
+                    "data": {
+                        "text": "Exchange rates"
+                    }
+                }
+            ]
+        },
+        {
+            "_id": "43cff1a7-5a89-4843-8ae2-4166cfdc8891",
+            "area": "a68ec831-3b2b-4ed6-a1cb-c988c3fe3a1c",
+            "data": {
+                "text": "Project Risks"
+            }
+        },
+        {
+            "_id": "8083f17a-1619-466f-b3b6-08d8eff0ad47",
+            "area": "a68ec831-3b2b-4ed6-a1cb-c988c3fe3a1c",
+            "data": {
+                "text": "Cost Model"
+            }
+        },
+        {
+            "_id": "d804119d-8963-4f69-aac8-c5c67fb5e5d2",
+            "area": "a68ec831-3b2b-4ed6-a1cb-c988c3fe3a1c",
+            "data": {
+                "text": "Untitled Campaign"
+            },
+            "children": [
+                {
+                    "_id": "b07b30de-049b-417f-b25a-0494fe1d8737",
+                    "area": "a68ec831-3b2b-4ed6-a1cb-c988c3fe3a1c",
+                    "data": {
+                        "text": "Untitled Well"
+                    },
+                    "children": [
+                        {
+                            "_id": "618bb313-3437-43ee-bbe4-6791cb0b5337",
+                            "area": "a68ec831-3b2b-4ed6-a1cb-c988c3fe3a1c",
+                            "data": {
+                                "text": "A3_G1"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
