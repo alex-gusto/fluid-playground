@@ -28,7 +28,7 @@
 		"@fluidframework/devtools": "^2.0.0-dev-rc.1.0.0.224419",
 		"@fluidframework/tinylicious-client": "2.0.0-rc.3.0.0",
 		"antd": "^5.16.5",
-		"fluid-framework": "2.0.0-rc.3.0.0",
+		"fluid-framework": "2.0.0",
 		"lodash.debounce": "^4.0.8",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
